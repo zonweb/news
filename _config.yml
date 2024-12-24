@@ -42,13 +42,13 @@ navigation_links:
 # Footer icons
 footer_links:
   - title: Privacy Policy
-    url: /news/privacy-policy/
+    url: /privacy-policy/
 
   - title: Terms and Conditions
-    url: /news/terms-and-conditions/
+    url: /terms-and-conditions/
 
   - title: Cookie Policy
-    url: /news/cookie-policy/
+    url: /cookie-policy/
 
 # Enter your copyright text if you wish to override the default one.
 #copyright: "This site is made with <3 by *me, myself, and I*."
