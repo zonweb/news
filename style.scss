@@ -498,9 +498,10 @@ nav {
 
     a {
         margin-left: 20px;
-        color: $darkGray;
+        color: $darkGray !important;;
         text-align: right;
-        font-weight: 400;
+        font-weight: 700;
+		font-size: 13px;
         letter-spacing: 01px;
 
         &:hover {
