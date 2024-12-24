@@ -57,4 +57,4 @@ We may update our Cookie Policy from time to time. Any changes will be posted on
 If you have any questions or concerns about our use of cookies, please contact us at:
 
 - **Email**: [zonweb@gmail.com](mailto:zonweb@gmail.com)
-- **Website**: [https://zonweb.github.io](https://zonweb.github.io)
+- **Website**: [https://zonweb.github.io/news](https://zonweb.github.io/news)
