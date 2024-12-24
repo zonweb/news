@@ -2,6 +2,7 @@
 layout: page
 title: "Privacy Policy"
 last_updated: "November 2024"
+permalink: /privacy-policy
 ---
 
 # Privacy Policy
