@@ -66,6 +66,6 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
 If you have any questions or concerns about this Privacy Policy or how we handle your personal data, please contact us at:
 
 - **Email**: [zonweb@gmail.com](mailto:zonweb@gmail.com)
-- **Website**: [https://zonweb.github.io](https://zonweb.github.io)
+- **Website**: [https://zonweb.github.io/news/](https://zonweb.github.io/news/)
 
 By using our website, you consent to this Privacy Policy and agree to the collection and use of your information as described.
