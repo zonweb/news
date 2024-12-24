@@ -8,8 +8,8 @@
 }
 
 .pagination a {
-  padding: 8px 12px;
-  background-color: #f0f0f0;
+  padding: 0.3em 0.6em;
+  background: -webkit-linear-gradient(bottom, #ddd, #fff);
   color: #333;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -26,7 +26,7 @@
 }
 
 .pagination .webjeda {
-  padding: 8px 12px;
+  padding: 0.3em 0.6em;
   background-color: #007bff;
   color: white;
   border: 1px solid #007bff;
@@ -48,7 +48,7 @@
 
 .pagination span {
   display: inline-block;
-  padding: 8px 12px;
+  padding: 0.3em 0.6em;
   background-color: #f0f0f0;
   color: #333;
   border: 1px solid #ddd;
