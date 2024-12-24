@@ -36,10 +36,10 @@ navigation_links:
     url: /
 
   - title: About
-    url: /about
+    url: /news/about
 
   - title: Search
-    url: /search
+    url: /news/search
 
 # Footer icons
 footer_links:
