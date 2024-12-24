@@ -4,7 +4,7 @@
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fas fa-chevron-left"></i></a>
   {% else %}
-    <span><i class="fas fa-chevron-left"></i></span>
+    <span><i class="fa fa-chevron-left"></i></span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -20,7 +20,7 @@
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fas fa-chevron-right"></i></a>
   {% else %}
-    <span><i class="fas fa-chevron-right"></i></span>
+    <span><i class="fa fa-chevron-right"></i></span>
   {% endif %}
 </div>
 {% endif %}
