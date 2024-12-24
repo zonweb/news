@@ -8,6 +8,8 @@ title: hakerdefo's weblog
 # Short bio or description (displayed in the header)
 description: Me in Markdown
 
+repo: https://zonweb.github.io/news # site repo [optional]
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /news/assets/image/avatar.png
 
