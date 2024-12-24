@@ -1,124 +1,70 @@
-.Pagination {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    text-align: center;
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
 }
 
-.Pagination-inner {
+.pagination a {
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.pagination a:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #0056b3;
+}
+
+.pagination .webjeda {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.pagination i {
+  font-size: 16px;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.pagination a:hover i,
+.pagination span i:hover {
+  color: #0056b3;
+}
+
+.pagination span {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.pagination span i {
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    flex-direction: column;
     align-items: center;
-    display: inline-flex;
-    font-size: 18px;
-    height: 30px;
-    line-height: 10px;
-}
-
-.Pagination-link {
-    align-items: center;
-    border-radius: 50%;
-    color: $pagination-color;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    text-decoration: none;
-    transition: color $time;
-    width: 30px;
-
-    &:hover {
-	color: $pagination-hover-color;
-    }
-
-    @include mobile {
-	display: none;
-    }
-}
-
-.Pagination-link--arrow {
-    display: flex;
-}
-
-.Pagination-link--inactive,
-.Pagination-link--inactive:hover {
-    background: transparent;
-    color: $pagination-color;
-    opacity: 0.3;
-}
-
-.Pagination-link--active,
-.Pagination-link--active:hover {
-    background: $pagination-active-bg;
-    color: $pagination-active-color;
-    font-weight: bold;
-    margin: 0 03px;
-
-    @include mobile {
-	display: flex;
-	margin: 0 10px;
-    }
-}
-
-.Pagination-separator {
-    margin: 0 12px;
-    position: relative;
-}
-
-.Pagination-separator,
-.Pagination-separator::before,
-.Pagination-separator::after {
-    background: $pagination-separator-color;
-    border-radius: 50%;
-    content: '';
-    display: block;
-    height: 03px;
-    width: 03px;
-
-    @include mobile {
-	display: none;
-    }
-}
-
-.Pagination-separator::before {
-    position: absolute;
-    top: 0;
-    transform: translateX(-6px);
-}
-
-.Pagination-separator::after {
-    position: absolute;
-    top: 0;
-    transform: translateX(6px);
-}
-
-.Pagination-arrow {
-    width: 12px;
-}
-
-.Pagination-arrow::before,
-.Pagination-arrow::after {
-    background: $pagination-color;
-    content: '';
-    display: block;
-    height: 15px;
-    transition: background $time;
-    width: 02px;
-}
-
-.Pagination-arrow::before {
-    transform: rotateZ(40deg);
-    transform-origin: bottom left;
-}
-
-.Pagination-arrow::after {
-    transform: rotateZ(-40deg);
-    transform-origin: top left;
-}
-
-.Pagination-arrow--right {
-    transform: rotateZ(180deg);
-}
-
-.Pagination-link:hover {
-    .Pagination-arrow::before,
-    .Pagination-arrow::after {
-	background: $pagination-hover-color;
-    }
+  }
+  .pagination a, .pagination .webjeda {
+    padding: 6px 10px;
+  }
 }
