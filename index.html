@@ -2,22 +2,117 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
+  <main class="posts">
+    {% for post in paginator.posts %}
     <article class="post">
-
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-
-  <div class="imgBox">
+      <div class="post-image">
         <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
         {% if post.image %} <img class="postthumb" src="{{ post.image }}" alt="{{ post.title }}">{% endif %}
          </a>
-          <div class="entry">
-        {{ post.excerpt | truncate: 100 }}
       </div>
-</div> 
+      <div class="post-content">
+       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="excerpt">{{ post.excerpt | truncate: 100 }}</p>
+      </div>
     </article>
+    
+  </main>
+
   {% endfor %}
 
   {% include pagination.html %}
-</div>
+
+<style>
+
+main.posts {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+.post {
+  display: flex;
+  flex-direction: row; /* Side by side layout for both desktop and mobile */
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  gap: 20px; /* Ensure there's space between image and content */
+}
+
+.post-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.post-content {
+  flex-grow: 1;
+}
+
+.post-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.post-content .excerpt {
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .post {
+    flex-direction: row; /* Keep side-by-side layout for tablets */
+    align-items: center;
+  }
+
+  .post-image img {
+    width: 118px; /* Fixed size for mobile */
+    height: 78px;
+  }
+
+  .post-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .post-content .excerpt {
+    font-size: 0.95rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .post {
+    flex-direction: row; /* Keep side-by-side layout for mobile */
+    align-items: center;
+    gap: 15px; /* Add spacing between image and content */
+    padding: 15px;
+  }
+
+  .post-image {
+    width: 118px; /* Fixed size for mobile */
+    height: 78px; /* Fixed size for mobile */
+  }
+
+  .post-image img {
+    width: 118px; /* Fixed size for mobile */
+    height: 78px; /* Fixed size for mobile */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .post-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .post-content .excerpt {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+
+}
+</style>
