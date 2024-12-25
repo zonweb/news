@@ -60,4 +60,4 @@ By making point cloud data publicly available, Tokyo is setting an example of ho
 
 Here is a tweet about Tokyo's release of the point cloud data:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Check out my iOS game, High5! <a href="https://t.co/QZEKLg3G2i">https://t.co/QZEKLg3G2i</a></p>&mdash; Keita Ito (@keitaitok) <a href="https://x.com/Yokohara_h/status/1869464728550228387">19 Des 2024</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Check out my iOS game, High5! <a href="https://t.co/QZEKLg3G2i">https://t.co/QZEKLg3G2i</a></p>&mdash; Keita Ito (@Yokohara_h) <a href="https://twitter.com/Yokohara_h/status/1869464728550228387">August 26, 2014</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
