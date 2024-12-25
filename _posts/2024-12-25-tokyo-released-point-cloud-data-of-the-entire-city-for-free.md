@@ -61,5 +61,5 @@ By making point cloud data publicly available, Tokyo is setting an example of ho
 Here is a tweet about Tokyo's release of the point cloud data:
 
 <div class='jekyll-twitter-plugin' align="center">
-    {% twitter https://twitter.com/Yokohara_h/status/1869464728550228387 maxwidth=600 limit=5 %}
+    {% twitter https://x.com/Yokohara_h/status/1869464728550228387 maxwidth=500 limit=5 %}
 </div>
