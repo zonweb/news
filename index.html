@@ -20,98 +20,93 @@ layout: default
   </main>
 
 <style>
-
-main.posts {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-/* CSS untuk Desktop */
+/* CSS untuk layout utama */
 .posts {
   display: flex;
-  flex-wrap: wrap; /* Membuat elemen bisa pindah baris jika terlalu banyak */
-  gap: 20px;
-  margin-top: 30px;
+  flex-direction: column;
+  gap: 30px;
 }
 
+/* Styling untuk artikel individual */
 .post {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
   display: flex;
-  flex-direction: row; /* Gambar di kiri, konten di kanan */
-  gap: 20px; /* Memberi jarak antara gambar dan konten */
-  width: 30%; /* Membuat 3 kolom di desktop */
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
 }
 
-.post:hover {
-  transform: translateY(-10px);
-}
-
+/* Styling untuk gambar di kiri */
 .post-image {
-  flex-shrink: 0; /* Mencegah gambar menyusut */
-  width: 120px; /* Lebar gambar */
-  height: 80px; /* Tinggi gambar */
+  flex-shrink: 0;
+  width: 120px; /* Ukuran gambar */
+  height: 120px;
+  overflow: hidden;
 }
 
 .post-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Menjaga proporsi gambar agar tidak terdistorsi */
-  border-radius: 5px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
+/* Styling untuk konten di kanan */
 .post-content {
-  flex-grow: 1; /* Membuat konten mengisi ruang yang tersisa */
+  flex-grow: 1;
 }
 
+/* Styling untuk judul */
 .post-content h2 {
-  font-size: 1.5em;
-  margin: 10px 0;
+  font-size: 20px;
+  margin: 0;
+  color: #333;
 }
 
-.post-content .excerpt {
-  font-size: 1em;
-  color: #777;
+.post-content h2 a {
+  text-decoration: none;
+  color: inherit;
 }
 
-/* CSS untuk Mobile */
+.post-content h2 a:hover {
+  color: #007bff;
+}
+
+/* Styling untuk excerpt */
+.excerpt {
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Responsif untuk tampilan mobile */
 @media (max-width: 768px) {
-  .posts {
-    display: grid; /* Grid untuk mobile */
-    grid-template-columns: 1fr; /* 1 kolom pada layar kecil */
-    gap: 20px; /* Memberi jarak antar post */
-  }
-
+  /* Mengubah layout menjadi vertikal */
   .post {
-    display: block; /* Mengubah post menjadi blok untuk mobile */
-    margin-bottom: 20px; /* Memberikan jarak antar post */
+    flex-direction: column;
+    align-items: flex-start;
   }
 
+  /* Membuat gambar lebih kecil dan berada di atas */
   .post-image {
-    margin-bottom: 10px; /* Mengurangi jarak antara gambar dan konten */
-    width: 100%; /* Gambar memanjang di mobile */
+    width: 100%;
     height: auto;
   }
 
   .post-image img {
     width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 8px;
   }
 
+  /* Menyesuaikan ukuran font untuk mobile */
   .post-content h2 {
-    font-size: 1.2em;
-    margin-top: 10px;
+    font-size: 18px;
   }
 
-  .post-content .excerpt {
-    font-size: 0.9em;
-    margin-top: 10px;
-    color: #555;
+  .excerpt {
+    font-size: 14px;
   }
 }
 
