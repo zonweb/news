@@ -64,5 +64,5 @@ Here is a tweet about Tokyo's release of the point cloud data:
     {% twitter https://twitter.com/Yokohara_h/status/1869464728550228387 maxwidth=600 limit=5 %}
 </div>
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">halfin (@halfin) <a href="https://twitter.com/Yokohara_h/status/1869464728550228387">https://twitter.com/Yokohara_h/status/1869464728550228387</a></p>&mdash; halfin (@halfin) <a href="https://twitter.com/Yokohara_h/status/1869464728550228387"></a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">halfin (@Yokohara_h) <a href="https://twitter.com/Yokohara_h/status/1869464728550228387">https://twitter.com/Yokohara_h/status/1869464728550228387</a></p>&mdash; halfin (@halfin) <a href="https://twitter.com/Yokohara_h/status/1869464728550228387"></a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
