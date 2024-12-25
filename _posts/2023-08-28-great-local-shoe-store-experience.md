@@ -3,6 +3,7 @@ layout: post
 title: A great local shoe store experience in Navsari
 categories: [life, shopping]
 slug: great-local-shoe-store-experience
+image: https://ts2.mm.bing.net/th?q=Nsfwleia%20onlyfans
 ---
 
 Initially, I didn't want to write this post, but then a thought from some deep recesses of my mind came afloat,  
