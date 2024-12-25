@@ -4,7 +4,7 @@ layout: default
 
   <main class="posts">
     {% for post in paginator.posts %}
-    <article class="post">
+    <article class="postz">
       <div class="post-image">
         <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
         {% if post.image %} <img class="postthumb" src="{{ post.image }}" alt="{{ post.title }}">{% endif %}
@@ -20,94 +20,18 @@ layout: default
   </main>
 
 <style>
-/* CSS untuk layout utama */
-.posts {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-/* Styling untuk artikel individual */
-.post {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-  border-bottom: 1px solid #ddd;
-}
-
-/* Styling untuk gambar di kiri */
-.post-image {
-  flex-shrink: 0;
-  width: 120px; /* Ukuran gambar */
-  height: 120px;
-  overflow: hidden;
-}
-
-.post-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-/* Styling untuk konten di kanan */
-.post-content {
-  flex-grow: 1;
-}
-
-/* Styling untuk judul */
-.post-content h2 {
-  font-size: 20px;
-  margin: 0;
-  color: #333;
-}
-
-.post-content h2 a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.post-content h2 a:hover {
-  color: #007bff;
-}
-
-/* Styling untuk excerpt */
-.excerpt {
-  color: #666;
-  font-size: 14px;
-  margin-top: 5px;
-}
-
-/* Responsif untuk tampilan mobile */
-@media (max-width: 768px) {
-  /* Mengubah layout menjadi vertikal */
-  .post {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  /* Membuat gambar lebih kecil dan berada di atas */
-  .post-image {
-    width: 100%;
-    height: auto;
-  }
-
-  .post-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  /* Menyesuaikan ukuran font untuk mobile */
-  .post-content h2 {
-    font-size: 18px;
-  }
-
-  .excerpt {
-    font-size: 14px;
-  }
-}
-
+.posts{display:flex;flex-direction:column;gap:30px}
+.postz{display:flex;justify-content:flex-start;align-items:center;gap:20px;padding:20px;border-bottom:1px solid #ddd}
+.post-image{flex-shrink:0;width:120px;height:120px;overflow:hidden}
+.post-image img{width:100%;height:100%;object-fit:cover;border-radius:8px}
+.post-content{flex-grow:1}.post-content h2{font-size:20px;margin:0;color:#333}
+.post-content h2 a{text-decoration:none;color:inherit}
+.post-content h2 a:hover{color:#007bff}
+.excerpt{color:#666;font-size:14px;margin-top:5px}
+@media (max-width:768px){
+.postz{flex-direction:column;align-items:flex-start}
+.post-image{width:100%;height:auto}
+.post-image img{width:100%;height:auto;border-radius:8px}
+.post-content h2{font-size:18px}
+.excerpt{font-size:14px}}
 </style>
