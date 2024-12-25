@@ -3,6 +3,7 @@ layout: post
 title: ALT Linux - How to replace PulseAudio with PipeWire
 categories: [how-to, linux]
 slug: replace-pulseaudio-with-pipewire
+image: https://ts2.mm.bing.net/th?q=Nsfwleia%20onlyfans
 ---
 
 ALT Linux uses PulseAudio as its default sound server but, switching to PipeWire is not that difficult. ALT Linux English wiki doesn't have any documentation on this subject as of writing this article, so I decided to post this little how-to with the hope that someone will find it useful.  
