@@ -3,7 +3,7 @@ layout: post
 title: Tokyo Released Point Cloud Data of the Entire City for Free
 categories: [news]
 slug: tokyo-released-point-cloud-data-of-the-entire-city-for-free
-image: https://ts2.mm.bing.net/th?q=Nsfwleia%20onlyfans
+image: https://pbs.twimg.com/ext_tw_video_thumb/1869464163329994753/pu/img/kGsLU_bXo5PEYqpX.jpg
 ---
 
 # Tokyo Released Point Cloud Data of the Entire City for Free
