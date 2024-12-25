@@ -49,6 +49,9 @@ footer_links:
 
   - title: Cookie Policy
     url: /cookie-policy
+    
+  - title: Contact US
+    url: /contact
 
 # Enter your copyright text if you wish to override the default one.
 #copyright: "This site is made with <3 by *me, myself, and I*."
