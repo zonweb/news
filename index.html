@@ -12,12 +12,10 @@ layout: default
         <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
         {% if post.image %} <img class="postthumb" src="{{ post.image }}" alt="{{ post.title }}">{% endif %}
          </a>
-</div>
-      
-      <div class="entry">
+          <div class="entry">
         {{ post.excerpt | truncate: 100 }}
       </div>
-      
+</div> 
     </article>
   {% endfor %}
 
