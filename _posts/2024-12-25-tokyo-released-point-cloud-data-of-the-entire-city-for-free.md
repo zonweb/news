@@ -5,6 +5,9 @@ categories: [news]
 slug: tokyo-released-point-cloud-data-of-the-entire-city-for-free
 image: https://pbs.twimg.com/ext_tw_video_thumb/1869464163329994753/pu/img/kGsLU_bXo5PEYqpX.jpg
 ---
+
+{% include ads1.html %}
+
 In a groundbreaking move towards transparency and urban planning, Tokyo has released its **point cloud data** for the entire city to the public. This initiative is expected to benefit researchers, urban planners, developers, and even the general public by providing a detailed, 3D representation of the city’s infrastructure and environment.
 
 ## What is Point Cloud Data?
@@ -33,6 +36,8 @@ Point cloud data is also essential for the development of **smart city** technol
 
 The data is available for free through the official Tokyo Metropolitan Government website. It can be downloaded by anyone with an internet connection. The point cloud data is provided in several formats, making it compatible with various software tools used for 3D modeling, analysis, and visualization.
 
+{% include ads2.html %}
+
 ## Applications of Point Cloud Data
 
 The potential applications of Tokyo’s point cloud data are vast. Here are just a few examples of how it can be used:
@@ -58,3 +63,5 @@ By making point cloud data publicly available, Tokyo is setting an example of ho
 Here is a tweet about Tokyo's release of the point cloud data:
 
 <blockquote class="twitter-tweet" data-lang="en">&mdash; Keita Ito (@Yokohara_h) <a href="https://twitter.com/Yokohara_h/status/1869464728550228387">August 26, 2014</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+{% include ads3.html %}
