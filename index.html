@@ -27,10 +27,11 @@ main.posts {
   gap: 20px;
 }
 
-/* CSS untuk Desktop */
+/* CSS untuk Desktop (Flexbox) */
 .posts {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 kolom untuk desktop */
+  display: flex;
+  flex-wrap: wrap; /* Membuat elemen-elemen bisa berada di baris baru jika terlalu banyak */
+  justify-content: space-between; /* Memberi jarak antar elemen */
   gap: 20px;
   margin-top: 30px;
 }
@@ -41,6 +42,7 @@ main.posts {
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  width: 30%; /* Memberi lebar 30% untuk setiap post */
 }
 
 .post:hover {
@@ -67,14 +69,16 @@ main.posts {
   color: #777;
 }
 
-/* CSS untuk Mobile */
+/* CSS untuk Mobile (Grid) */
 @media (max-width: 768px) {
   .posts {
-    grid-template-columns: 1fr; /* Satu kolom pada layar kecil */
+    display: grid; /* Mengubah ke grid pada layar kecil */
+    grid-template-columns: 1fr; /* 1 kolom pada layar kecil */
+    gap: 20px; /* Memberi jarak antar post */
   }
 
   .post {
-    margin-bottom: 20px; /* Memberi jarak antar post */
+    margin-bottom: 20px; /* Memberikan jarak antar post */
   }
 
   .post-image {
@@ -98,5 +102,6 @@ main.posts {
     color: #555;
   }
 }
+
 
 </style>
