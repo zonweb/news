@@ -3,6 +3,7 @@ layout: post
 title: Xubuntu - Fix the QT_QPA_PLATFORMTHEME environment variable is not set correctly error
 categories: [how-to, linux]
 slug: xubuntu-fix-kvantum-qt_qpa_platformtheme
+image: https://ts2.mm.bing.net/th?q=Nsfwleia%20onlyfans
 ---
 
 A short while back, I upgraded the minimal installation of Xubuntu Jammy Jellyfish to Noble Numbat, and then I installed Qt5 Configuration Utility (qt5ct) and upon launching, it presented me with the following error,  
