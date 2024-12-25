@@ -15,12 +15,11 @@ layout: default
         <p class="excerpt">{{ post.excerpt | truncate: 100 }}</p>
       </div>
     </article>
-    
+
+      {% include pagination.html %}
   </main>
 
   {% endfor %}
-
-  {% include pagination.html %}
 
 <style>
 
