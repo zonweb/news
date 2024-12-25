@@ -3,6 +3,7 @@ layout: post
 title: How to spice up Grub2 boot menu screen with colors & image
 categories: [how-to, linux]
 slug: grub2-customize-menu-screen-colors-image
+image: https://ts2.mm.bing.net/th?q=Nsfwleia%20onlyfans
 ---
 
 The default look of Grub2 boot menu screen is a bit bland & boring to say the least, but it is very easy to spice it up with vivid font colors and a background image. Are you guys & gals ready to color your Grub2 boot menu screen? Let's dive right into it, then.  
