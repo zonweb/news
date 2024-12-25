@@ -4,6 +4,7 @@ title: KMail - Fix postgres db cluster upgrade failed error
 
 categories: [how-to, linux]
 slug: kmail-fix-postgres-cluster-upgrade-failed
+image: https://ts2.mm.bing.net/th?q=Nsfwleia%20onlyfans
 ---
 
 After a recent update on Calculate Linux (Gentoo-based), KMail stopped launching and running it from the terminal showed the following error as the root cause of failure:  
