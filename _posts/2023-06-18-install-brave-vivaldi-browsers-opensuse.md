@@ -3,6 +3,7 @@ layout: post
 title: How to install Brave & Vivaldi browsers in openSUSE
 categories: [how-to, linux]
 slug: install-brave-vivaldi-browsers-opensuse
+image: https://ts2.mm.bing.net/th?q=Nsfwleia%20onlyfans
 ---
 
 I'm an avid Firefox user and it has been the browser for me for the ages but due to a recent [Firefox bug in openSUSE Tumbleweed](https://bugzilla.opensuse.org/show_bug.cgi?id=1212101){:target="_blank"}, I was in need for a temporary browser alternative. I shortlisted Brave and Vivaldi as decent Firefox placeholders. Sadly, Brave and Vivaldi are not available in the official repositories of openSUSE but installing them is a relatively straightforward and easy process.  
