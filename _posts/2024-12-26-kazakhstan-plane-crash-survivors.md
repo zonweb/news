@@ -4,7 +4,7 @@ title: "Survival Amid Tragedy: Dozens Dead in Kazakhstan Plane Crash, But Many S
 description: "A catastrophic plane crash in Kazakhstan claimed the lives of 38 people, but thanks to quick action, 29 survived. The investigation into the cause continues."
 categories: [news]
 slug: "kazakhstan-plane-crash-survivors"
-image: 
+image: https://assets3.cbsnewsstatic.com/hub/i/r/2024/12/25/26be6984-6b6a-4d48-a254-8e66c2446ba2/thumbnail/620x465/efb7394f9bb2f9d564fc6cf489c00b6e/2024-12-25t081907z-1543872355-rc28wbafe87z-rtrmadp-3-kazakhstan-crash.jpg
 ---
 
 {% include ads1.html %}
