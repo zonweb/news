@@ -9,6 +9,9 @@ image: https://bsmedia.business-standard.com/_media/bs/img/article/2024-09/19/fu
 
 In a groundbreaking move, China has approved the construction of what will become the world’s largest hydropower dam, set to be built on the Yarlung Zangbo River in Tibet. This ambitious project, once completed, could transform the energy landscape of China while having far-reaching environmental and geopolitical implications for neighboring countries like India and Bangladesh.
 
+![China Unveils Plans for Record-Breaking Hydropower Dam in Tibet](https://bsmedia.business-standard.com/_media/bs/img/article/2024-09/19/full/1726735106-5658.jpg?im=FeatureCrop,size=(826,465) "China Unveils Plans for Record-Breaking Hydropower Dam in Tibet")
+<figcaption>Authorities have not indicated how many people the Tibet project would displace and how it would affect the local ecosystem (Photo: Shutterstock)</figcaption> 
+
 The dam, located in the lower reaches of the Yarlung Zangbo River, is expected to generate an astonishing 300 billion kilowatt-hours of electricity annually. This is more than three times the current output of the Three Gorges Dam, which, at 88.2 billion kWh, is the world’s largest operational hydropower plant.
 
 This colossal undertaking is not only a major step toward China’s carbon peaking and neutrality goals, but it is also poised to drive job creation, boost local industries, and stimulate economic growth in Tibet. As reported by the state-run Xinhua news agency, the project will play a pivotal role in enhancing China’s renewable energy capacity.
