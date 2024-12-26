@@ -11,7 +11,7 @@ image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbaiOdIxYfws-YC8ksV
 
 New data from the Centers for Disease Control and Prevention (CDC) shows that the U.S. fertility rate has reached a record low, with births declining by 3%. The CDC’s latest report indicates that just over 3.5 million babies were born in the United States, marking a significant drop from previous years.
 
-![CDC Reveals U.S. Fertility Rate Hits All-Time Low, Births Decline by 3%](https://i.dailymail.co.uk/1s/2018/10/17/04/5108784-0-image-a-5_1539748811446.jpg "CDC Reveals U.S. Fertility Rate Hits All-Time Low, Births Decline by 3%")
+![CDC Reveals U.S. Fertility Rate Hits All-Time Low, Births Decline by 3%](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbaiOdIxYfws-YC8ksVY1ovvsLumBTXIQIqA&s "CDC Reveals U.S. Fertility Rate Hits All-Time Low, Births Decline by 3%")
 
 ## Key Findings
 
