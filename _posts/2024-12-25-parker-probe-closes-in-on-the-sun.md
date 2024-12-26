@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NASA’s Parker Probe Breaks Records: Humanity's Boldest Step Toward the Sun
+title: "NASA’s Parker Probe Breaks Records: Humanity's Boldest Step Toward the Sun"
 description: "On Christmas Eve, NASA's Parker Solar Probe reached a historic milestone, coming closer to the Sun than any human-made object before. A breakthrough in space exploration that sets new records."
 categories: [news]
 slug: parker-probe-closes-in-on-the-sun
