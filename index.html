@@ -12,7 +12,7 @@ layout: default
       </div>
       <div class="post-content">
        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="excerpt">{{ post.excerpt | truncate: 100 }}</p>
+        <p class="excerpt">{{ post.description | truncate: 100 }}</p>
       </div>
     </article>
   {% endfor %}
