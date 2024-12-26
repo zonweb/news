@@ -7,6 +7,8 @@ slug: parker-probe-closes-in-on-the-sun
 image: https://imageio.forbes.com/specials-images/imageserve/64e39dd59228015dd1d8ae25/Low-Res-522-00-1280-768x432/960x0.jpg
 ---
 
+{% include ads1.html %}
+
 NASA’s Parker Solar Probe has made an incredible leap in space exploration, coming within just 3.86 million miles (6.1 million kilometers) of the Sun’s surface on Christmas Eve — setting a new record. This awe-inspiring moment marks humanity’s closest-ever approach to a star and the fastest speed ever achieved by a man-made object. You can follow Parker’s groundbreaking journey on NASA’s Eyes On The Solar System page.
 
 ![NASA’s Parker Probe Breaks Records: Humanity's Boldest Step Toward the Sun](https://imageio.forbes.com/specials-images/imageserve/64e39dd59228015dd1d8ae25/Low-Res-522-00-1280-768x432/960x0.jpg "NASA’s Parker Probe Breaks Records: Humanity's Boldest Step Toward the Sun")
@@ -18,6 +20,8 @@ On Tuesday, December 24, at 11:53 UTC (6:53 a.m. EST), Parker Solar Probe flew c
 This historic flyby was Parker’s 22nd close approach to the Sun, marking a defining moment for humankind. As NASA’s fastest-ever spacecraft, Parker reached speeds of up to 430,000 mph (690,000 kph) during this record-breaking flyby, breaking its own speed record and earning a place in space exploration history.
 
 ### A Journey Through the Sun's Wrath
+
+{% include ads2.html %}
 
 NASA describes the Parker mission as entering a “hyper-close regime,” where the spacecraft will pass through plasma plumes still connected to the Sun. At this close range, Parker will even dive through solar eruptions, like a surfer riding the crash of a wave.
 
@@ -34,3 +38,5 @@ Parker’s journey isn’t over yet. The spacecraft will complete two more close
 For now, mission operators at the Johns Hopkins Applied Physics Laboratory are waiting to re-establish contact with Parker on December 27, 2024, after a three-day communication blackout. This beacon signal will confirm the spacecraft’s survival after the most daring leg of its journey.
 
 Clear skies and wide eyes as we continue to push the boundaries of space exploration. The Sun has never been so close, and neither has humanity.
+
+{% include ads2.html %}
