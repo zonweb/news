@@ -1,6 +1,7 @@
 ---
 layout: post
 title: CDC Reveals U.S. Fertility Rate Hits All-Time Low, Births Decline by 3%
+description: New data from the Centers for Disease Control and Prevention (CDC) shows that the U.S. fertility rate has reached a record low, with births declining by 3%
 categories: [news]
 slug: cdc-reveals-u-s-fertility-rate-hits-all-time-low-births-decline-by-3
 image: https://i.dailymail.co.uk/1s/2018/10/17/04/5108784-0-image-a-5_1539748811446.jpg
