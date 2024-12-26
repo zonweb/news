@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NASA’s Parker Probe Breaks Records: Humanity's Boldest Step Toward the Sun"
+title: NASA’s Parker Probe Breaks Records: Humanity's Boldest Step Toward the Sun
 description: "On Christmas Eve, NASA's Parker Solar Probe reached a historic milestone, coming closer to the Sun than any human-made object before. A breakthrough in space exploration that sets new records."
 categories: [news]
 slug: parker-probe-closes-in-on-the-sun
@@ -8,6 +8,8 @@ image: https://imageio.forbes.com/specials-images/imageserve/64e39dd59228015dd1d
 ---
 
 NASA’s Parker Solar Probe has made an incredible leap in space exploration, coming within just 3.86 million miles (6.1 million kilometers) of the Sun’s surface on Christmas Eve — setting a new record. This awe-inspiring moment marks humanity’s closest-ever approach to a star and the fastest speed ever achieved by a man-made object. You can follow Parker’s groundbreaking journey on NASA’s Eyes On The Solar System page.
+
+![NASA’s Parker Probe Breaks Records: Humanity's Boldest Step Toward the Sun](https://imageio.forbes.com/specials-images/imageserve/64e39dd59228015dd1d8ae25/Low-Res-522-00-1280-768x432/960x0.jpg "NASA’s Parker Probe Breaks Records: Humanity's Boldest Step Toward the Sun")
 
 ### A Monumental Milestone
 
