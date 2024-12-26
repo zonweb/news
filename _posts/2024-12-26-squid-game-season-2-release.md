@@ -13,6 +13,16 @@ The wait is finally over! *Squid Game* Season 2 is now available for streaming e
 
 Mark your calendars: December 26, 2024, is the day *Squid Game* fans will return to the deadly playground. With 7 episodes ready for you to binge-watch, this season is set to become the next global sensation.
 
+### Key Info
+
+| Key Info           | Details                                   |
+|--------------------|-------------------------------------------|
+| **Release Date**    | December 26, 2024                         |
+| **Platform**        | Netflix (Subscription Required)           |
+| **Episodes Released** | 7 Episodes (All at Once)                |
+| **Main Cast**       | Lee Jung-jae, Wi Ha-joon, and New Cast Members |
+| **Official Website** | [Netflix Squid Game](https://www.netflix.com) |
+
 ### The *Squid Game* Phenomenon: A Quick Recap
 
 When *Squid Game* first dropped in 2021, it quickly became a cultural phenomenon. The series captivated audiences with its intense mix of survival drama, social commentary, and stunning visuals. Garnering 111 million viewers within just 28 days of its release, it became Netflix’s most-watched series of all time.
