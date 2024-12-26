@@ -9,9 +9,9 @@ image: https://pagesix.com/wp-content/uploads/sites/3/2024/12/beyonce-performs-h
 
 {% include ads1.html %}
 
-```bash
+<blockquote class="prompt-info"><p>
 Beyoncé made an unforgettable Christmas Day appearance during the halftime show of the Houston Texans vs. Baltimore Ravens NFL game, bringing her country music album, *Cowboy Carter*, to life for the first time in front of a live audience. Netflix dubbed the event the "Beyoncé Bowl," and it certainly lived up to the hype.
-```
+</p></blockquote>
 
 ![Beyoncé Stuns in 'Cowboy Carter' Debut at NFL Christmas Halftime Show](https://pagesix.com/wp-content/uploads/sites/3/2024/12/beyonce-performs-halftime-show-netflix-95850905_2549e3.jpg?w=1024 "Beyoncé Stuns in 'Cowboy Carter' Debut at NFL Christmas Halftime Show")
 <figcaption>Beyoncé started her performance on horseback, singing “16 Carriages.”
