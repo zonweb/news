@@ -22,7 +22,7 @@ author:
 
 # Your website URL (e.g. https://forever-jekyll.github.io or https://forever-jekyll.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://zonweb.github.io/news
+url: https://www.viralhd.store/news
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -33,7 +33,7 @@ baseurl: "/news"
 # Navigation menu
 navigation_links:
   - title: Blog
-    url: https://zonweb.github.io/news
+    url: https://www.viralhd.store/news
   - title: About
     url: /news/about
   - title: Search
