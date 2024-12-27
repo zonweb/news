@@ -6,7 +6,7 @@
 #related-wrap{position:relative;float:left;width:100%;padding:0;margin:30px 0 0}
 #related-wrap .related-tag{display:none}
 .title-wrap{position:relative;float:left;width:100%;margin:0 0 20px}
-.title-wrap > .title{display:block;font-family:var(--title-font);font-size:16px;color:var(--widget-title-color);font-weight:600;text-transform:uppercase;line-height:1;padding:0;margin:0}
+.title-wrap > .title{display:block;font-family:var(--title-font);font-size:16px;color:var(--widget-title-color);font-weight:600;text-transform:uppercase;line-height:1;padding:0;margin:0;float: left;}
 #main-wrapper .title-wrap > .title:after{content:'\f054';display:inline-block;vertical-align:middle;font-family:'Font Awesome 5 Free';font-size:12px;font-weight:900;margin:-2px 0 0 3px}
 .rtl #main-wrapper .title-wrap > .title:after{content:'\f053';margin:0 3px 0 0}
 .supermag-preview-related-content{float:left;width:100%;margin:0}
