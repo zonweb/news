@@ -7,7 +7,7 @@ author:
   url: https://github.com/hakerdefo
 
 # Website URL and Base URL
-url: https://www.viralhd.store  # URL domain utama
+url: "https://www.viralhd.store"  # URL domain utama
 baseurl: "/news"  # Subdirektori tempat situs di-hosting
 
 # Navigation links
