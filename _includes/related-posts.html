@@ -1,28 +1,31 @@
 <footer class="post-footer">
-{% assign size = site.related_posts | size %}
-{% if size != 0 %}
-<div id="related-wrap" class="show-ify">
-<div class="title-wrap related-title">
-<span class="title">You might like</span>
-</div>
-{% for post in site.related_posts limit:3 %}
-<div class="supermag-preview-related-content">
-    <div class="related-posts">
+  {% assign size = site.related_posts | size %}
+  {% if size != 0 %}
+  <div id="related-wrap" class="show-ify">
+    <div class="title-wrap related-title">
+      <span class="title">You might like</span>
+    </div>
+
+    <!-- Mulai Loop untuk Menampilkan Pos Terkait -->
+    {% for post in site.related_posts limit:3 %}
+    <div class="supermag-preview-related-content">
+      <div class="related-posts">
         <!-- Menambahkan nomor otomatis menggunakan forloop.index0 -->
         <div class="related-item post item-{{ forloop.index0 }}">
-            <a title="{{ post.title }}" class="entry-image-wrap is-video" href="{{ post.url }}">
-                {% if post.image %}
-                    <span class="entry-thumb lazy-ify" data-image="{{ post.image }}" style="background-image:url({{ post.image }})"></span>
-                {% endif %}
-            </a>
-            <div class="entry-header">
-                <h2 class="entry-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-            </div>
+          <a title="{{ post.title }}" class="entry-image-wrap is-video" href="{{ post.url }}">
+            {% if post.image %}
+            <span class="entry-thumb lazy-ify" data-image="{{ post.image }}" style="background-image:url({{ post.image }})"></span>
+            {% endif %}
+          </a>
+          <div class="entry-header">
+            <h2 class="entry-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-{% endfor %}
-  
-</div>
-{% endif %}
+    {% endfor %}
+    <!-- Selesai Loop untuk Pos Terkait -->
+
+  </div>
+  {% endif %}
 </footer>
