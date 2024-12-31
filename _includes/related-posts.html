@@ -11,7 +11,7 @@
         <div class="related-item post item-{{ forloop.index0 }}">
           <a title="{{ post.title }}" class="entry-image-wrap is-image" href="{{ site.baseurl }}{{ post.url }}">
             {% if post.image %}
-            <span class="entry-thumb lazy-ify" data-image="{{ site.baseurl }}/{{ post.image }}" style="background-image:url({{ site.baseurl }}/{{ post.image }})"></span>
+            <span class="entry-thumb lazy-ify" data-image="{{ post.image }}" style="background-image:url({{ post.image }})"></span>
             {% endif %}
           </a>
           <div class="entry-header">
